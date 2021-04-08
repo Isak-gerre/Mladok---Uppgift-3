@@ -1,0 +1,61 @@
+@import "courses.css";
+@import "index.css";
+@import "nav.css";
+@import "students.css";
+@import "style.css";
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  height: 7vh;
+  width: 98vw;
+}
+main {
+  min-height: 70vh;
+  background-color: #c4c4c4;
+  width: 98vw;
+  border-right: 1px solid #afafaf;
+  border-left: 1px solid #afafaf;
+  border-bottom: 1px solid #afafaf;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav > a {
+  border-top: 1px solid #afafaf;
+  border-right: 1px solid #afafaf;
+}
+nav > a:first-child {
+  border-left: 1px solid #afafaf;
+}
+
+.selected {
+  background-color: #c4c4c4;
+  border-bottom: none;
+}
+.footer-text {
+  font-weight: lighter;
+}
+.filter {
+  margin: 12px;
+}

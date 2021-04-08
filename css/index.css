@@ -1,0 +1,102 @@
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin: 200px auto;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 222, 209);
+  border: 1px solid rgb(184, 124, 116);
+}
+main {
+  position: relative;
+}
+main > h1 {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
+main > h1:first-child {
+  left: 25%;
+  background-color: rgb(241, 222, 209);
+}
+main > h1 {
+  left: 75%;
+  background-color: #fb9f89;
+}
+.flag {
+  background-color: rgb(105, 245, 12);
+}
+.checked {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.show-bomb {
+  background-color: red;
+}
+.checked-no-number {
+  background-color: rgba(0, 0, 0, 0.199);
+}
+.color1 > p {
+  color: blue;
+}
+.color2 > p {
+  color: green;
+}
+.color3 > p {
+  color: orange;
+}
+.color4 > p {
+  color: red;
+}
+.color5 > p {
+  color: pink;
+}
+.color6 > p {
+  color: darkblue;
+}
+.color7 > p {
+  color: darkgreen;
+}
+.color8 > p {
+  color: black;
+}
+#gameContainer {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+#wrapper {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 1px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fb9f89;
+  border: 0.5px solid black;
+  font-size: 50px;
+  color: #1e1e24;
+}
+#wintext {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: black;
+}

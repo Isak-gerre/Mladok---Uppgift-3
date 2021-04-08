@@ -1,0 +1,26 @@
+STUDENTS
+- Sök på efternamn
+- Sorteras efter efternamn
+- Gröna kort om studenten har klarat alla poäng i den kursen
+
+Studentkort:
+Förnamn Efternamn (Total credits)
+Courses:
+kurskort, kurskort, kurskort...
+
+kurskort: 
+Titel
+Termin år (# of total credits)
+
+
+
+COURSES
+- Sök på kurstitel
+- Sorteras efter kurstitel
+
+Kurskort: 
+Titel (total credits)
+Kursansvarig          Lärare
+Lärarkort(rött)       Lärarkort
+Studenter:
+Studentkort, Studentkort, Studentkort....
